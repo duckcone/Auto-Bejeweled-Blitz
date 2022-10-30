@@ -3,7 +3,7 @@ from operator import imod
 from turtle import bgcolor, down, left
 import pyautogui as pyg
 
-DUR = 0.1
+DUR = 0.3
 START_X = 465
 START_Y = 395
 
@@ -191,7 +191,7 @@ while(True):
                     pyg.click()
                     pyg.moveTo(x, y-50)
                     pyg.click()
-
+            # pyg.moveTo(x, y, duration=DUR)
             x += 50
             
         x = START_X
